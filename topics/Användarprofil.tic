@@ -1,0 +1,5 @@
+Name: Användarprofil
+Text:  Användaren ska kunna spara information om sig själv i applikationen.
+ Användaren ska kunna ändra sitt lösenord, och se vilka intresseobjekt hen
+ själv följer.
+IncludeRequirements: full

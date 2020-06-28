@@ -1,0 +1,5 @@
+Name: Aviseringar
+Text: Denna kategori av krav har att göra med hur applikationen aviserar 
+ användaren om olika händelser som användaren kan definiera samt 
+ frågeformulärer som forskarna vill skicka åt användarna.
+IncludeRequirements: full
