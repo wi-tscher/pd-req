@@ -1,0 +1,18 @@
+Name: EnhetsAviseringar
+Type: design decision
+Invented on: 2020-05-06
+Invented by: Jenny Lindholm
+Owner: management
+Description: Aviseringen ska vara synlig på samma enhet som applikationen är
+ installerad på (telefon, tablet).
+Rationale: Detta gör applikationen mer lättanvänd från slutanvändarens
+ perspektiv
+
+Status: not done
+Priority: development:10 management:10
+Effort estimation: 8
+Topic: Plattformar
+Class: detailable
+
+Solved by: Plattformar
+

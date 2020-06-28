@@ -9,7 +9,7 @@ Rationale: Detta ger användaren flera alternativ att bli informerad av vad som
  pågår i lokalpolitiken utan att behöva kolla applikationen flera gånger.
 
 Status: not done
-Priority: development:10
+Priority: development:10 management:10
 Effort estimation: 21
 Topic: Aviseringar
 Class: detailable
