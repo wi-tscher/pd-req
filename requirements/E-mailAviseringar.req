@@ -1,4 +1,4 @@
-Name: E-mailAviseringar
+Name: Aviseringar via e-mail
 Type: design decision
 Invented on: 2020-05-06
 Invented by: Jenny Lindholm
@@ -11,5 +11,5 @@ Rationale: Detta ger användaren flera alternativ att bli informerad av vad som
 Status: not done
 Priority: development:10 management:10
 Effort estimation: 21
-Topic: Aviseringar
 Class: detailable
+Topic: Aviseringar

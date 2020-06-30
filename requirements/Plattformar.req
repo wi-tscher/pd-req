@@ -1,0 +1,17 @@
+Name: Plattformar som stöds av applikationen
+Type: design decision
+Invented on: 2020-06-05
+Invented by: Jenny Lindholm
+Owner: management
+Description: Applikationen ska var tillgänglig på flera plattformar. Alla
+ versioner (webb, IOS, Android) ska ha samma innehåll. Det ska gå att vara 
+ inloggad på fler devices samtidigt. Användarens personliga inställningar 
+ kopplas till kontot.
+Rationale: Detta krav främjar användarens gynnsamma interaktioner med
+ applikationen.
+
+Status: not done
+Priority: management:10
+Effort estimation: 8
+Class: detailable
+Topic: Plattformar

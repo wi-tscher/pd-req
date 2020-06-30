@@ -1,4 +1,4 @@
-Name: PocketDemocracy
+Name: PocketDemocracy applikation
 Type: master requirement
 Invented on: 2019-01-01
 Invented by: Jenny Lindholm
@@ -12,6 +12,7 @@ Note: Projektägarna kan fylla i 'Rationale' fältet. Varför är projektet vär
 Status: not done
 Priority: management:10
 Effort estimation: 13
+Class: detailable
 Topic: PocketDemocracy
 
-Solved by: E-mailAviseringar EnhetsAviseringar
+Solved by: Plattformar E-mailAviseringar EnhetsAviseringar
