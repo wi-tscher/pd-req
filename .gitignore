@@ -1,0 +1,12 @@
+Config.json
+Makefile
+artifacts/
+html/
+latex/
+make.sh
+setenv.sh
+
+*.sw[p|o]
+*.exclude
+.rmtoo_dependencies
+*log
