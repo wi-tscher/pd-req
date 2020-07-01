@@ -1,8 +1,9 @@
-Name: PocketDemocracy applikation
+Name: PocketDemocracy applikation v.2
 Type: master requirement
 Invented on: 2019-01-01
 Invented by: Jenny Lindholm
-Owner: management
+Owner: customers
+
 Description: Det finns behov av ett verktyg some gör informationsspridning om 
  lokaldemokratiska system lättare i svenskfinland.
 Rationale: -
@@ -10,7 +11,7 @@ Note: Projektägarna kan fylla i 'Rationale' fältet. Varför är projektet vär
  att utföra.
 
 Status: not done
-Priority: management:10
+Priority: customers:10
 Effort estimation: 13
 Class: detailable
 Topic: PocketDemocracy

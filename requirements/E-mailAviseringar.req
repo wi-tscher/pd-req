@@ -2,14 +2,15 @@ Name: Aviseringar via e-mail
 Type: design decision
 Invented on: 2020-05-06
 Invented by: Jenny Lindholm
-Owner: management
+Owner: customers
+
 Description: Användaren ska kunna välja en e-postadress dit aviseringar
  skickas.
 Rationale: Detta ger användaren flera alternativ att bli informerad av vad som
  pågår i lokalpolitiken utan att behöva kolla applikationen flera gånger.
 
 Status: not done
-Priority: development:10 management:10
+Priority: customers:10
 Effort estimation: 21
 Class: detailable
 Topic: Aviseringar

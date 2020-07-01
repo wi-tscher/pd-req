@@ -1,0 +1,16 @@
+Name: Enkät åt användarna
+Type: design decision
+Invented on: 2020-05-06
+Invented by: Jenny Lindholm
+Owner: customers
+
+Description: Applikationsförvaltarna ska kunna skicka enkät åt användarna eller
+ en delgrupp av användarna. 
+Rationale: Detta ger förvaltarna möjlighet att formulera direkta frågor åt
+ användarna
+
+Status: not done
+Priority: customers:10
+Effort estimation: 8
+Class: detailable
+Topic: Analys

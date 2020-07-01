@@ -1,0 +1,20 @@
+Name: Sida för inställningar vid första inloggingen
+Type: design decision
+Invented on: 2020-06-05
+Invented by: Jenny Lindholm
+Owner: customers
+
+Description: Användaren ska kunna mata in sina preferenser för hurdan
+ information de vill ha från applikationen.
+Rationale: Om applikationen ska vara användbar åt användaren måste
+ anpassningsbarhet vara möjligt.
+Note: relaterat till kravet om Aviseringar
+
+
+Status: not done
+Priority: customers:10
+Effort estimation: 13
+Class: detailable
+Topic: PocketDemocracy
+
+Solved by: Plattformar E-mailAviseringar EnhetsAviseringar

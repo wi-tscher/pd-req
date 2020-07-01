@@ -2,7 +2,8 @@ Name: Aviseringar på enheter
 Type: design decision
 Invented on: 2020-05-06
 Invented by: Jenny Lindholm
-Owner: management
+Owner: customers
+
 Description: Aviseringen ska vara synlig på samma enhet som applikationen är
  installerad på (telefon, tablet).
 Rationale: Detta gör applikationen mer lättanvänd från slutanvändarens
@@ -10,7 +11,7 @@ Rationale: Detta gör applikationen mer lättanvänd från slutanvändarens
 Note: Detta krav har en koppling till Plattformar kravet.
 
 Status: not done
-Priority: development:10 management:10
+Priority: customers:10
 Effort estimation: 8
 Class: detailable
 Topic: Aviseringar
