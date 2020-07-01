@@ -14,7 +14,12 @@
             "dependency_notation": [
                 "Solved by"
             ],
-            "directory": "requirements"
+            "directory": "requirements",
+            "txtfile": {
+                "reqtag": {
+                    "max_line_lenght": 5000
+                }
+            }
         },
         "inventors": [
             "Jenny Lindholm",
@@ -41,10 +46,15 @@
                         "topics_dirs": [
                             "topics"
                         ],
-                        "topic_root_node": "ReqSpec",
+                        "topic_root_node": "ReqsDocument",
                         "constraints_dirs": [
                             "constraints"
-                        ]
+                        ],
+                        "txtfile": {
+                            "reqtag": {
+                                "max_line_lenght": 5000
+                            }
+                        }
                     }
                 ]
             ],
