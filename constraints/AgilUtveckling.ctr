@@ -1,7 +1,8 @@
-Name: AgilUtveckling
+Name: Agil programvaroutveckling av applikationen
 Invented by: Jenny Lindholm
 Invented on: 2020-05-06
-Owner: management
+Owner: customers
+
 Description: PocketDemocracy applikationen ska utvecklas med en agil
  utvecklingsmetod.
-Rationale: Utecklingen är lättare att styra med agila utvecklingsmetoder.
+Rationale: Utvecklingen är lättare att styra med agila utvecklingsmetoder.
