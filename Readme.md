@@ -41,59 +41,59 @@ Från RMTOO manualen (```man rmtoo-req-format```):
 
 ### KEY 'Priority'
     
-    Each requirement must have a priority.  The effective priority is computed by the currently given priority multiplied by a normalized maximum priority of all parents.
+Each requirement must have a priority.  The effective priority is computed by the currently given priority multiplied by a normalized maximum priority of all parents.
     
-    The format is 'stakeholder:num'. 'num' must be a number between and including 0 and 10.  It is possible to specify more than one stakeholders separating them with a space.
+The format is 'stakeholder:num'. 'num' must be a number between and including 0 and 10.  It is possible to specify more than one stakeholders separating them with a space.
 
 ### KEY 'Effort estimation'
-    The effort estimation is done with the help of an abstract measurement so called 'effort points'. These effort points are used in agile processes (especially SCRUM) to get a prediction about the burn-down speed and the expected finished date.
+The effort estimation is done with the help of an abstract measurement so called 'effort points'. These effort points are used in agile processes (especially SCRUM) to get a prediction about the burn-down speed and the expected finished date.
 
-    0 - no effort
-    1 - tiny effort
-    2 - very small effort (two times a tiny effort)
-    3 - small effort (same as a tiny and a very small effort)
-    5 - medium effort (same as a very small and a small effort)
-    8 - big effort (same as a small and a medium effort)
-    13 - very big effort (same as big effort and a medium effort)
-    21 - huge effort (same as very big effort and big effort)
+0 - no effort
+1 - tiny effort
+2 - very small effort (two times a tiny effort)
+3 - small effort (same as a tiny and a very small effort)
+5 - medium effort (same as a very small and a small effort)
+8 - big effort (same as a small and a medium effort)
+13 - very big effort (same as big effort and a medium effort)
+21 - huge effort (same as very big effort and big effort)
 
 ### KEY 'Rationale'
-    This is optional. This gives a hint and some more details about the requirement. Typically some background information is given here.
+This is optional. This gives a hint and some more details about the requirement. Typically some background information is given here.
 
 ### KEY 'Note'
-    The note is an additional comment for the requirement.
+The note is an additional comment for the requirement.
 
 ### KEY 'Solved by'
-    Each requirement which is 'solved' by other requirements must have one or more children. The 'Solved by' tag contains a list of these children.
+Each requirement which is 'solved' by other requirements must have one or more children. The 'Solved by' tag contains a list of these children.
 
 ### KEY 'Status'
-    The status can be one of 'not done' or 'finished'.
+The status can be one of 'not done' or 'finished'.
 
 ### KEY 'Topic'
-    This is the topic this requirement belongs to.
+This is the topic this requirement belongs to.
 
 ### KEY 'Class'
-    This gives the class of the requirement. Currently two values are possible 'detailable', 'implementable' or 'selected':
+This gives the class of the requirement. Currently two values are possible 'detailable', 'implementable' or 'selected':
 
-    'detailable' means that the requirement must be elaborated before they can be implemented.
+'detailable' means that the requirement must be elaborated before they can be implemented.
 
-    'implementable' means that the requirement is detailed enough to start with implementation.
+'implementable' means that the requirement is detailed enough to start with implementation.
 
-    'selected' means  that  the requirement is selected for the next sprint. Based on this selection the sprint burndown and the selected table is printed.
+'selected' means  that  the requirement is selected for the next sprint. Based on this selection the sprint burndown and the selected table is printed.
 
 ## Hur man fyller i TIC-filer (Topic, ämne)
 
 ### KEY 'Name'
-    The value is the name of the topic.  This is used as a chapter headline in the output document.
+The value is the name of the topic.  This is used as a chapter headline in the output document.
 
 ### KEY 'Text'
-    The text value will be copied into the output document.
+The text value will be copied into the output document.
 
 ### KEY 'IncludeRequirements'
-    This  is the position where all the requirements are inserted in the output document.  The value must be the string 'full'.
+This  is the position where all the requirements are inserted in the output document.  The value must be the string 'full'.
 
 ### KEY 'SubTopic'
-    The value of the subtopic must be the id of another topic.  This topic is inserted at  the  point  of  occurance.
+The value of the subtopic must be the id of another topic.  This topic is inserted at  the  point  of  occurance.
 
 ## CTR-filer (Constraints, begräsningar)
 
