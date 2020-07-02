@@ -1,6 +1,8 @@
 .PHONY: all
 .PHONY: all_html
-all: artifacts/requirements.pdf artifacts/req-graph1.png \
+all: artifacts/req-graph1.png artifacts/req-graph2.png all_html \ 
+	artifacts/requirements.pdf
+#all: artifacts/requirements.pdf artifacts/req-graph1.png \
 	artifacts/req-graph2.png all_html
 #all: artifacts/req-graph1.png artifacts/req-graph2.png all_html
 
@@ -24,7 +26,7 @@ RMTOO_CALL ?= rmtoo
 RMTOO_CONFIG=Config.yaml
 RMTOO_CONTRIB_DIR ?= /home/witscher/workspace/venvs/rmtoo-venv/rmtoo
 
-CALL_RMTOO=${RMTOO_CALL} -y "@cat ${RMTOO_CONFIG}" #file://${RMTOO_CONFIG}
+CALL_RMTOO=${RMTOO_CALL} -y file://${RMTOO_CONFIG}
 
 #
 # Dependency handling
