@@ -1,7 +1,7 @@
-make.sh
-setenv.sh
-
+*.sh
 *.sw[p|o]
 *.exclude
-.rmtoo_dependencies
 *log
+artifacts/*
+
+!artifacts/requirements.pdf
