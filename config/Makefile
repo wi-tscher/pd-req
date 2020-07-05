@@ -1,7 +1,7 @@
 .PHONY: all
 .PHONY: all_html
-all: artifacts/req-graph1.png artifacts/req-graph2.png all_html \ 
-	artifacts/requirements.pdf
+all: ../artifacts/req-graph1.png ../artifacts/req-graph2.png all_html \ 
+	../artifacts/requirements.pdf
 #all: artifacts/requirements.pdf artifacts/req-graph1.png \
 	artifacts/req-graph2.png all_html
 #all: artifacts/req-graph1.png artifacts/req-graph2.png all_html
@@ -41,16 +41,16 @@ all_html: ${OUTPUT_HTML}
 	${CALL_RMTOO} \
 		--create-makefile-dependencies=.rmtoo_dependencies
 
-artifacts/req-graph1.png: artifacts/req-graph1.dot
+artifacts/req-graph1.png: ../artifacts/req-graph1.dot
 	unflatten -l 23 artifacts/req-graph1.dot | \
 		dot -Tpng -o artifacts/req-graph1.png
 
-artifacts/req-graph2.png: artifacts/req-graph2.dot
+artifacts/req-graph2.png: ../artifacts/req-graph2.dot
 	dot -Tpng -o artifacts/req-graph2.png artifacts/req-graph2.dot
 
 # Two calls are needed: one for the requirments converting and one for
 # backlog creation.
-artifacts/requirements.pdf: ${REQS_LATEX2} latex/requirements.tex
+artifacts/requirements.pdf: ${REQS_LATEX2} ../latex/requirements.tex
 	(cd artifacts && \
 	   gnuplot ${RMTOO_CONTRIB_DIR}/contrib/gnuplot_stats_reqs_cnt.inc && \
 	   epstopdf stats_reqs_cnt.eps)
