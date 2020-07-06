@@ -5,3 +5,4 @@
 artifacts/*
 
 !artifacts/requirements.pdf
+!artifacts/*.png
