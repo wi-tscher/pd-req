@@ -1,7 +1,7 @@
 \documentclass{report}
 \usepackage{longtable}
 \usepackage{graphicx}
-\usepackage[utf8]{inputenc} % TODO (added by witscher)
+\usepackage[utf8x]{inputenc} % TODO (added by witscher)
 \usepackage[swedish]{babel} % TODO (added by witscher)
 % When latex aborts with
 %  pdfTeX error (ext4): \pdfendlink ended up in different nesting level than \pd
@@ -9,15 +9,19 @@
 % Comment that line with draft out and inpect the errornous page
 \usepackage[
     pdfauthor={witscher@abo.fi},%
-%   draft,%
-    pdftitle={Krav för PocketDemocracy-projektet},%
-    pdfsubject={Requirment description for project},%
-    pdfkeywords={pocketdemocracy, demokrati, applikation, krav},%
+    draft,%
+    debug,
     pagebackref=true,%
-    pdftex,
+    luatex,
     bookmarks=true,
-    colorlinks=true
+    colorlinks=true,
+    unicode=true % TODO (added by witscher)
 ]{hyperref}
+\hypersetup{
+    pdftitle={Krav för PocketDemocracy-projektet},%
+    pdfsubject={Requirement description for project},%
+    pdfkeywords={pocketdemocracy, demokrati, applikation, krav},%
+}
 
 \usepackage[a4paper]{geometry}
 
@@ -71,14 +75,14 @@ Version: \input{../artifacts/reqs-version.txt}
 
 \input{../artifacts/reqtopics.tex}
 
-\chapter{Statistics}
-\section{Burndown diagram for Sprint}
+\chapter{Statistik}
+\section{Burndown-diagram för sprinten}
 \includegraphics{../artifacts/stats_sprint_burndown.pdf}
 
-\section{Burndown diagram for Project}
+\section{Burndown-diagram för projektet}
 \includegraphics{../artifacts/stats_burndown.pdf}
 
-\section{Requirements Count Statistics}
+\section{Statistik över kravantal}
 \includegraphics{../artifacts/stats_reqs_cnt.pdf}
 
 \end{document}
