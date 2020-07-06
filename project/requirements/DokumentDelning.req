@@ -1,0 +1,17 @@
+Name: Delning av dokument
+Type: design decision
+Invented on: 2020-06-05
+Invented by: Jenny Lindholm
+Owner: customers
+
+Description: Användaren ska kunna dela dokument av olika format.
+Note: Vilka alla dokumenttyper finns det?
+Rationale: Utöver politikerinfo, måste röstare lätt kunna dela dokument med 
+ varandra för att kunna avgöra om de förtroendevalda producerar beslut i 
+ röstarnas tycke.
+
+Status: not done
+Priority: customers:10
+Effort estimation: 8
+Class: detailable
+Topic: Delning
