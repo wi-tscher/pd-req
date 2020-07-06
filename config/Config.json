@@ -17,7 +17,7 @@
             "directory": "requirements",
             "txtfile": {
                 "reqtag": {
-                    "max_line_lenght": 5000
+                    "max_input_line_lenght": 5000
                 }
             }
         },
@@ -38,8 +38,8 @@
                 [
                     "git",
                     {
-                        "start_vers": "9ca60c81cd91ab42597a7e892353f70cc57720b8",
-                        "end_vers": "HEAD",
+                        "start_vers": "master~10",
+                        "end_vers": "master",
                         "requirements_dirs": [
                             "requirements"
                         ],
@@ -52,7 +52,7 @@
                         ],
                         "txtfile": {
                             "reqtag": {
-                                "max_line_lenght": 5000
+                                "max_input_line_lenght": 5000
                             }
                         }
                     }

@@ -1,6 +1,12 @@
 processing:
   analytics:
     stop_on_errors: false
+constraints:
+  search_dirs:
+  - constraints
+  txtfile:
+    reqtag:
+      max_input_line_lenght: 5000
 requirements:
   input:
     commit_interval:
@@ -12,7 +18,7 @@ requirements:
     directory: ../project/requirements
     txtfile:
       reqtag:
-        max_line_lenght: 5000
+        max_input_line_lenght: 5000
   inventors:
   - Jenny Lindholm
   - Janne Holm
@@ -24,9 +30,19 @@ requirements:
 topics:
   ts_common:
     sources:
-    - - git
-      - start_vers: 9ca60c81cd91ab42597a7e892353f70cc57720b8
-        end_vers: HEAD
+    -
+      - "ignore:git" # &#58;
+      -
+        start_vers: master~2 # 9ca60c81cd91ab42597a7e892353f70cc57720b8
+        end_vers: master
+        requirements_dirs:
+          - requirements
+        topics_dirs:
+          - topics
+        topic_root_node: ReqsDocument
+    -
+      - filesystem
+      -
         requirements_dirs:
         - ../project/requirements
         topics_dirs:
