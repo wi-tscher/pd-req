@@ -2,10 +2,10 @@
 
 Detta GitHub repository (sv. förvar, förkortat repo), är ett versioneringssystem
 för kraven av pocketdemocracy. Det är också ett kollaborativ plattform för fil 
-editering (tyvärr bara textfiler). Det är möjligt att editera filerna också i
-webb-vyn (vid <https://github.com/[denna_repo]>).
+editering (tyvärr bara textfiler). Det är möjligt att editera filerna också här 
+i webb-vyn.
 
-Kraven i HTML form kan hittas [här](/artifacts/html/RequirementsDoc.html).
+Kraven i HTML form kan hittas [i denna repos github-pages](https://wi-tscher.github.io/pd-req/ReqsDocument.html).
 
 ## Projekthantering
 
