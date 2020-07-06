@@ -28,7 +28,7 @@ in-filerna med hjälp av ```rmtoo``` (setup av programmet är inte trivialt).
 Ett rmtoo projekt (alla projekt i princip) har krav (requirements, sparas i
 filer med filändelsen '.req'), ämnen (topics, sparas i filer med filändelsen
 '.tic') och begränsningar (constraints, sparas i filer med filändelsen '.ctr').
-Varje filkategori sparas i sin egna mapp med motsvarande namn.
+Varje filkategori sparas i sin egna mapp med motsvarande namn (inne i project-mappen).
 
 # Filformat
 
