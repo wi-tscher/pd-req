@@ -1,0 +1,48 @@
+../artifacts/req-graph1.dot: ${REQS}
+	${CALL_RMTOO}
+../artifacts/req-graph2.dot: ${REQS}
+	${CALL_RMTOO}
+../artifacts/html/ReqsDocument.html: html/header.html html/footer.html ${TOPIC_ts_common_ReqsDocument_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Intressenter.html: html/header.html html/footer.html ${TOPIC_ts_common_Intressenter_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Intresseuppdelning.html: html/header.html html/footer.html ${TOPIC_ts_common_Intresseuppdelning_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Aviseringar.html: html/header.html html/footer.html ${TOPIC_ts_common_Aviseringar_DEPS}
+	${CALL_RMTOO}
+REQS+=../project/requirements/E-mailAviseringar.req
+REQS+=../project/requirements/EnhetsAviseringar.req
+../artifacts/html/Användarprofil.html: html/header.html html/footer.html ${TOPIC_ts_common_Användarprofil_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Delning.html: html/header.html html/footer.html ${TOPIC_ts_common_Delning_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Politikerinfo.html: html/header.html html/footer.html ${TOPIC_ts_common_Politikerinfo_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Sökfunktion.html: html/header.html html/footer.html ${TOPIC_ts_common_Sökfunktion_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Dokumentvy.html: html/header.html html/footer.html ${TOPIC_ts_common_Dokumentvy_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Plattformar.html: html/header.html html/footer.html ${TOPIC_ts_common_Plattformar_DEPS}
+	${CALL_RMTOO}
+REQS+=../project/requirements/Plattformar.req
+../artifacts/html/Förstasida.html: html/header.html html/footer.html ${TOPIC_ts_common_Förstasida_DEPS}
+	${CALL_RMTOO}
+../artifacts/html/Analys.html: html/header.html html/footer.html ${TOPIC_ts_common_Analys_DEPS}
+	${CALL_RMTOO}
+REQS+=../project/requirements/Enkät.req
+../artifacts/html/Språk.html: html/header.html html/footer.html ${TOPIC_ts_common_Språk_DEPS}
+	${CALL_RMTOO}
+OUTPUT_HTML=../artifacts/html/ReqsDocument.html ../artifacts/html/Intressenter.html ../artifacts/html/Intresseuppdelning.html ../artifacts/html/Aviseringar.html ../artifacts/html/Användarprofil.html ../artifacts/html/Delning.html ../artifacts/html/Politikerinfo.html ../artifacts/html/Sökfunktion.html ../artifacts/html/Dokumentvy.html ../artifacts/html/Plattformar.html ../artifacts/html/Förstasida.html ../artifacts/html/Analys.html ../artifacts/html/Språk.html 
+../artifacts/reqtopics.tex: ${REQS}
+	${CALL_RMTOO}
+REQS_LATEX2=../artifacts/reqtopics.tex
+../artifacts/reqsprios.tex: ${REQS}
+	${CALL_RMTOO}
+../artifacts/stats_burndown.csv: ${REQS}
+	${CALL_RMTOO}
+../artifacts/stats_reqs_cnt.csv: ${REQS}
+	${CALL_RMTOO}
+../artifacts/stats_sprint_burndown.csv: ${REQS}
+	${CALL_RMTOO}
+../artifacts/reqs-version.txt: ${REQS}
+	${CALL_RMTOO}
